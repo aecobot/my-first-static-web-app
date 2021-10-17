@@ -133,3 +133,10 @@ function keyPressed() {
         generateVertices();
     }
 }
+
+function deviceShaken() {
+    if(!realTime){
+        vertices = new Array();
+        generateVertices();
+    }
+}
